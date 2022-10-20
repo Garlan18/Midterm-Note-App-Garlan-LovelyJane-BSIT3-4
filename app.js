@@ -2,6 +2,7 @@ const write = require('./write')
 const read = require('./read')
 const add = require('./add')
 const del = require('./del')
+const present = require('./present')
 
 
 const cmd = process.argv
