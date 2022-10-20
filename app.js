@@ -1,9 +1,9 @@
-const write = require('./write')
-const read = require('./read')
-const add = require('./add')
-const del = require('./del')
-const present = require('./present')
-
+const write = require('./write') //WRITE
+const read = require('./read') //READ
+const add = require('./add') //ADD
+const del = require('./del') //DELETE
+const present = require('./present') //PRESENT
+const update = require('./update') //UPDATE
 
 const cmd = process.argv
 
@@ -33,4 +33,19 @@ if (cmd[2]=="delete"){
     const del = require('./del')
     del(id,oldNote);
     console.log(read());
+}
+
+//(---UPDATE---)
+if(cmd[2] == 'update'){
+    const note = {
+        id: cmd[3],
+        title: cmd[4],
+        body: cmd[5]
+    }
+
+    const oldNote = read()
+
+    update(note, oldNote)
+
+    present(read())
 }
