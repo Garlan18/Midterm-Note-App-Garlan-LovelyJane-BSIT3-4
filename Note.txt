@@ -1,1 +1,1 @@
-[{"id":"01","title":"This is my updated first note","body":"No Errors!"},{"id":"02","title":"My Second Note","body":"Finish your Midterm Project Now"},{"id":"03","title":"My Third Note","body":"Midterm Note App"}]
+[{"id":"01","title":"This is my updated first note","body":"No Errors!"},{"id":"02","title":"My Second Note","body":"Finish your Midterm Project Now"}]
