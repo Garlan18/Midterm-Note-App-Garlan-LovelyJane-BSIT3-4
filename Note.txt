@@ -1,1 +1,1 @@
-[{"id":"01","title":"My First Note","body":"Welcome to the World of Programming!"},{"id":"02","title":"My Second Note","body":"Finish your Midterm Project Now"},{"id":"03","title":"My Third Note","body":"How are you?"}]
+[{"id":"01","title":"My First Note","body":"Welcome to the World of Programming!"},{"id":"02","title":"My Second Note","body":"Finish your Midterm Project Now"}]
