@@ -1,6 +1,8 @@
 const write = require('./write')
 const read = require('./read')
 const add = require('./add')
+const del = require('./del')
+
 
 const cmd = process.argv
 
@@ -20,4 +22,14 @@ if(cmd[2] == 'add') {
     const oldNote = read()
     
     add(note, oldNote)
+}
+
+//(---DELETE---)
+if (cmd[2]=="delete"){
+    console.log('delete function')
+    const id = cmd[3]
+    const oldNote = read()
+    const del = require('./del')
+    del(id,oldNote);
+    console.log(read());
 }
